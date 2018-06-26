@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eca218"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:text="S/N"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#e4dede"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/serial"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Questions"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#eae4e4"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/quest"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="true"
+                android:textSize="17sp"
+                android:textColor="#ded7d7"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="16dp"
+                android:id="@+id/title"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:text="false"
+                android:layout_marginLeft="5dp"
+                android:textColor="#e9e3e3"
+                android:id="@+id/texttitle"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="(1)"
+                android:textColor="#cec7c7"
+                android:layout_margin="10dp"
+                android:id="@+id/seri1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Peso is the currency of Peru"
+                android:layout_margin="10dp"
+                android:textColor="#f4f0f0"
+                android:id="@+id/textView"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
